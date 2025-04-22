@@ -1,0 +1,26 @@
+[
+    {
+      "id": 1,
+      "title": "General Supplies",
+      "description": "Office stationery, ICT equipment, medical supplies, safety gear, printing, and branding materials.",
+      "icon": "FaBox"
+    },
+    {
+      "id": 2,
+      "title": "Works",
+      "description": "Roadworks, building construction, renovations, electrical, and plumbing installations.",
+      "icon": "FaHardHat"
+    },
+    {
+      "id": 3,
+      "title": "Non-Consultancy Services",
+      "description": "Office cleaning, fumigation, waste collection, and disposal.",
+      "icon": "FaBroom"
+    },
+    {
+      "id": 4,
+      "title": "ICT & Digital Services",
+      "description": "Software development, website design, cybersecurity, and data management.",
+      "icon": "FaLaptopCode"
+    }
+  ]

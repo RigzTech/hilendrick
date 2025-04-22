@@ -1,0 +1,214 @@
+.services {
+    margin-top: 80px;
+  }
+  
+  /* Intro Section */
+  .services-intro {
+    padding: 100px 50px;
+    background: url('/public/images/services-bg.jpg') no-repeat center center;
+    position: relative;
+    object-fit: contain;
+    text-align: center;
+    color: #fff;
+  }
+  
+  .services-intro::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(26, 43, 95, 0.7); /* Navy blue overlay */
+  }
+  
+  .services-intro h1 {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    font-size: 36px;
+    margin-bottom: 20px;
+    position: relative;
+    z-index: 1;
+  }
+  
+  .services-intro p {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 18px;
+    max-width: 800px;
+    margin: 0 auto 30px;
+    position: relative;
+    z-index: 1;
+  }
+  
+  .quote-btn {
+    display: inline-block;
+    background: #D4A017;
+    color: #fff;
+    padding: 12px 30px;
+    border-radius: 25px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    text-decoration: none;
+    transition: background 0.3s, transform 0.3s;
+  }
+  
+  .quote-btn:hover {
+    background: #1A2B5F;
+    transform: scale(1.05);
+  }
+  
+  /* Services List */
+  .services-list {
+    padding: 50px;
+    background: #F5F5F5;
+  }
+  
+  .services-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 30px;
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+  
+  .service-card {
+    background: #fff;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    transition: transform 0.3s;
+  }
+  
+  .service-card:hover {
+    transform: translateY(-5px);
+  }
+  
+  .service-icon {
+    font-size: 40px;
+    color: #D4A017;
+    margin-bottom: 15px;
+  }
+  
+  .service-card h3 {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    font-size: 20px;
+    color: #1A2B5F;
+    margin-bottom: 10px;
+  }
+  
+  .service-card p {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+    color: #333;
+  }
+  
+  /* Service Images Carousel Section */
+  .services-carousel-section {
+    padding: 80px 100px; /* Reduced padding to make the section smaller */
+    background: #fff;
+    text-align: center;
+  }
+  
+  .services-carousel-section h2 {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    font-size: 20px; /* Reduced heading size */
+    color: #1A2B5F;
+    margin-bottom: 20px;
+  }
+  
+  .services-carousel {
+    max-width: 1000px;
+    margin: 0 auto;
+  }
+  
+  .service-slide {
+    position: relative;
+    padding: 0 10px;
+  }
+  
+  .service-slide img {
+    width: 100%;
+    height: 250px; /* Reduced height from 400px to 200px */
+    object-fit: cover;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s;
+  }
+  
+  .service-slide img:hover {
+    transform: scale(1.05);
+  }
+  
+  .caption {
+    position: absolute;
+    bottom: 10px; /* Adjusted for smaller image */
+    left: 50%;
+    transform: translateX(-50%);
+    background: rgba(26, 43, 95, 0.8); /* Navy blue with opacity */
+    color: #fff;
+    padding: 5px 15px; /* Reduced padding */
+    border-radius: 20px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    font-size: 14px; /* Reduced font size */
+    text-align: center;
+    white-space: nowrap;
+  }
+  
+  /* Slick Slider Dots Styling */
+  .slick-dots {
+    bottom: -20px; /* Adjusted for smaller section */
+  }
+  
+  .slick-dots li button:before {
+    font-size: 10px; /* Reduced dot size */
+    color: #D4A017;
+  }
+  
+  .slick-dots li.slick-active button:before {
+    color: #1A2B5F;
+  }
+  
+  /* Responsive Design */
+  @media (max-width: 768px) {
+    .services-intro {
+      padding: 50px 20px;
+    }
+  
+    .services-intro h1 {
+      font-size: 28px;
+    }
+  
+    .services-intro p {
+      font-size: 16px;
+    }
+  
+    .quote-btn {
+      padding: 10px 20px;
+      font-size: 14px;
+    }
+  
+    .services-list {
+      padding: 20px;
+    }
+  
+    .services-carousel-section {
+      padding: 20px;
+    }
+  
+    .services-carousel-section h2 {
+      font-size: 18px;
+    }
+  
+    .service-slide img {
+      height: 150px; /* Reduced height from 300px to 150px on mobile */
+    }
+  
+    .caption {
+      font-size: 12px;
+      padding: 5px 10px;
+    }
+  }

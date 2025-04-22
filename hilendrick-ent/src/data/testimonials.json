@@ -1,0 +1,20 @@
+[
+    {
+      "id": 1,
+      "name": "Jane Mwangi",
+      "company": "Nairobi Tech Solutions",
+      "quote": "Hilendrick Enterprises provided us with top-notch ICT solutions that transformed our business operations. Their team is professional and reliable!"
+    },
+    {
+      "id": 2,
+      "name": "Peter Kamau",
+      "company": "Kamau Construction Ltd.",
+      "quote": "The construction services from Hilendrick were exceptional. They completed our project on time and within budget."
+    },
+    {
+      "id": 3,
+      "name": "Sarah Omondi",
+      "company": "Omondi Enterprises",
+      "quote": "Their office cleaning services are outstanding. Our workspace has never looked better!"
+    }
+  ]

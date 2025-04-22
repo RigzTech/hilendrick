@@ -1,0 +1,108 @@
+.portfolio {
+    padding: 100px 50px;
+    text-align: center;
+  }
+  
+  .portfolio h1 {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    font-size: 36px;
+    color: #1A2B5F;
+    margin-bottom: 20px;
+  }
+  
+  .portfolio-intro {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+    color: #333;
+    max-width: 800px;
+    margin: 0 auto 40px;
+  }
+  
+  .portfolio-filters {
+    margin-bottom: 30px;
+  }
+  
+  .portfolio-filters button {
+    background: #F5F5F5;
+    border: none;
+    padding: 10px 20px;
+    margin: 0 5px;
+    border-radius: 20px;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 14px;
+    color: #1A2B5F;
+    cursor: pointer;
+    transition: background 0.3s;
+  }
+  
+  .portfolio-filters button.active,
+  .portfolio-filters button:hover {
+    background: #D4A017;
+    color: #fff;
+  }
+  
+  .portfolio-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 20px;
+  }
+  
+  .project-card {
+    background: #fff;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s;
+  }
+  
+  .project-card:hover {
+    transform: translateY(-5px);
+  }
+  
+  .project-card img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+  }
+  
+  .project-info {
+    padding: 20px;
+    text-align: left;
+  }
+  
+  .project-info h3 {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    font-size: 20px;
+    color: #1A2B5F;
+    margin-bottom: 10px;
+  }
+  
+  .project-info p {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 14px;
+    color: #333;
+    margin-bottom: 10px;
+  }
+  
+  .project-info .category {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 12px;
+    color: #D4A017;
+  }
+  
+  @media (max-width: 768px) {
+    .portfolio {
+      padding: 50px 20px;
+    }
+  
+    .portfolio h1 {
+      font-size: 28px;
+    }
+  
+    .portfolio-filters button {
+      padding: 8px 15px;
+      margin: 5px;
+    }
+  }

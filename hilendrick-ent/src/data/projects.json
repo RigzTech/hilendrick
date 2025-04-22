@@ -1,0 +1,16 @@
+[
+    {
+      "id": 1,
+      "title": "Nairobi Office Renovation",
+      "category": "Works",
+      "description": "Complete renovation of a corporate office in Nairobi, including electrical and plumbing installations.",
+      "image": "/images/project1.jpg"
+    },
+    {
+      "id": 2,
+      "title": "Custom Software for Retail",
+      "category": "ICT & Digital Services",
+      "description": "Developed a custom inventory management system for a retail chain in Kenya.",
+      "image": "/images/project2.jpg"
+    }
+  ]

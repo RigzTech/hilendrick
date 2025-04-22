@@ -1,0 +1,53 @@
+.newsletter {
+    text-align: left;
+  }
+  
+  .newsletter h2 {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    font-size: 20px;
+    color: #1A2B5F;
+    margin-bottom: 10px;
+  }
+  
+  .newsletter p {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 14px;
+    color: #333;
+    margin-bottom: 10px;
+  }
+  
+  .newsletter-form {
+    display: flex;
+    gap: 10px;
+  }
+  
+  .newsletter-form input {
+    flex: 1;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 14px;
+  }
+  
+  .newsletter-form button {
+    background: #1A2B5F;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    font-family: 'Montserrat', sans-serif;
+    cursor: pointer;
+    transition: background 0.3s;
+  }
+  
+  .newsletter-form button:hover {
+    background: #D4A017;
+  }
+  
+  @media (max-width: 768px) {
+    .newsletter-form {
+      flex-direction: column;
+    }
+  }

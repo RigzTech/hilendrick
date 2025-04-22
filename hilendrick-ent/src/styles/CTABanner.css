@@ -1,0 +1,45 @@
+.cta-banner {
+    background: #1A2B5F;
+    color: #fff;
+    padding: 40px;
+    text-align: center;
+    margin: 20px 0;
+  }
+  
+  .cta-banner h2 {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    font-size: 32px;
+    margin-bottom: 10px;
+  }
+  
+  .cta-banner p {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+    margin-bottom: 20px;
+  }
+  
+  .cta-btn {
+    background: #D4A017;
+    color: #fff;
+    padding: 10px 20px;
+    border-radius: 20px;
+    text-decoration: none;
+    font-family: 'Montserrat', sans-serif;
+    transition: background 0.3s;
+  }
+  
+  .cta-btn:hover {
+    background: #fff;
+    color: #1A2B5F;
+  }
+  
+  @media (max-width: 768px) {
+    .cta-banner {
+      padding: 20px;
+    }
+  
+    .cta-banner h2 {
+      font-size: 24px;
+    }
+  }
