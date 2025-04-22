@@ -1,13 +1,12 @@
 import React, { useState } from 'react';
 import { Link, useLocation } from 'react-router-dom';
-import { FaBars, FaTimes } from 'react-icons/fa'; // Import FaBars for hamburger icon and FaTimes for close icon
+import { FaBars, FaTimes } from 'react-icons/fa';
 import '../styles/Header.css';
 
 function Header() {
   const location = useLocation();
-  const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false); // State to toggle mobile menu
+  const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);
 
-  // Function to toggle the mobile menu
   const toggleMobileMenu = () => {
     setIsMobileMenuOpen(!isMobileMenuOpen);
   };
@@ -58,7 +57,7 @@ function Header() {
               <Link
                 to="/"
                 className={location.pathname === '/' ? 'active' : ''}
-                onClick={toggleMobileMenu} // Close menu on link click
+                onClick={toggleMobileMenu}
               >
                 Home
               </Link>
