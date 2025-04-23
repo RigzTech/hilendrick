@@ -131,7 +131,7 @@
   
   .service-slide img {
     width: 100%;
-    height: 250px; /* Reduced height from 400px to 200px */
+    height: 300px; /* Reduced height from 400px to 200px */
     object-fit: cover;
     border-radius: 10px;
     box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);

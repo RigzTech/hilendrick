@@ -10,7 +10,7 @@ function Footer() {
           <h3>Contact Us</h3>
           <p>Chester House, Koinange Street, Nairobi, Kenya</p>
           <p>Email: info@hilendrick.co.ke</p>
-          <p>Phone: +254 123 456 789</p>
+          <p>Phone: +254 29246533</p>
         </div>
         <div className="footer-section">
           <h3>Quick Links</h3>

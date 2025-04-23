@@ -19,7 +19,7 @@ function Contact() {
 
         {/* Floating WhatsApp Button */}
         <a
-          href="https://wa.me/+254987654321"
+          href="https://wa.me/+25492837628"
           target="_blank"
           rel="noopener noreferrer"
           className="whatsapp-float"
@@ -42,11 +42,11 @@ function Contact() {
             </div>
             <div className="contact-detail">
               <FaPhone className="contact-icon" />
-              <p>Phone: <a href="tel:+254123456789">+254 123 456 789</a></p>
+              <p>Phone: <a href="tel:+254729246533">+254729246533</a></p>
             </div>
             <div className="contact-detail">
               <FaWhatsapp className="contact-icon" />
-              <p>WhatsApp: <a href="https://wa.me/+25492837628" target="_blank" rel="noopener noreferrer">+254 987 654 321</a></p>
+              <p>WhatsApp: <a href="https://wa.me/+25492837628" target="_blank" rel="noopener noreferrer">+254792837628</a></p>
             </div>
             <div className="contact-detail">
               <FaClock className="contact-icon" />
